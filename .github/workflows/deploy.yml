@@ -38,5 +38,4 @@ jobs:
       - name: Output information
         # the mongo db user name is not available due to missing context on env var.
         run: |        
-          echo "mongo_db_username -> ${{ env.MONGODB_USERNAME }}"
           echo "mongo_db_name -> ${{env.MONGODB_DB_NAME}} "
